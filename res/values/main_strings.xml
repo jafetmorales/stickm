@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="main_act_title">StickM Notes</string>
+    <string name="main_act_body">INSTRUCTIONS:
+
+    1. Go to your home screen
+
+    2. Touch your home screen for a few seconds
+
+    3. Select widgets and press on StickM Notes
+    </string>
+    <string name="app_name">StickM Notes</string>
+
+</resources>
+<!-- 
+    <string name="appwidget_prefix_default">Oh hai</string>
+    <string name="edit_field1">Edit Field 1</string>
+    <string name="empty_string"></string>
+    <string name="data_field1">Data Field 1</string>
+
+    -->

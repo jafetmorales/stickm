@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+<string name="picframe_credit11">Frame 11</string>
+    <string name="picframe_credit10">This is a derived work of the Classic Frame by pareeerica
+From http://www.flickr.com/photos/8078381@N03/3434321940/
+Attribution 2.0 Generic Creative Commons license
+License available at http://creativecommons.org/licenses/by/2.0/deed.en</string>
+    <string name="picframe_credit13">Frame 13</string>
+    <string name="picframe_credit12">Frame 12</string>
+    <string name="picframe_credit15">This is a derived work of the Peter Griffin iPhone wallpaper by xploitme
+From http://www.flickr.com/photos/45928872@N08/4272568725/
+Attribution-Share Alike 2.0 Generic Creative Commons license
+License available at http://creativecommons.org/licenses/by-sa/2.0/deed.en</string>
+    <string name="picframe_credit14">Frame 14</string>
+    <string name="picframe_credit17">This is a derived work of the Homer Simpson iPod Ad (outdated) by Dan Diemer
+From http://www.flickr.com/photos/diemer/2195379725/
+Attribution 2.0 Generic Creative Commons license
+License available at http://creativecommons.org/licenses/by/2.0/deed.en</string>
+    <string name="picframe_credit16">This is a derived work of the Cool Blog Sociale - 15 July 2008 - Homer Simpson's head through X-ray by SOCIALisBETTER
+From http://www.flickr.com/photos/27620885@N02/2671077524/
+Attribution 2.0 Generic Creative Commons license
+License available at http://creativecommons.org/licenses/by/2.0/deed.en</string>
+    <string name="picframe_credit19">This is a derived work of the Uncle Sam Tells You by Mike Licht, NotionsCapital.com
+From http://www.flickr.com/photos/notionscapital/2151462814/
+Attribution 2.0 Generic creative Commons license
+License available at http://creativecommons.org/licenses/by/2.0/deed.en</string>
+    <string name="picframe_credit3">Frame 3</string>
+    <string name="picframe_credit20">This is a derived work of the Pixel Ronnie by Mark H. Evans
+From http://www.flickr.com/photos/mevs/4353682014/
+Attribution 2.0 Generic creative Commons license
+License available at http://creativecommons.org/licenses/by/2.0/deed.en</string>
+    <string name="picframe_credit18">This is a derived work of the MHV + hZ by Discos Konfort
+From http://www.flickr.com/photos/konfort/816010852/
+Attribution 2.0 Generic creative Commons license
+License available at http://creativecommons.org/licenses/by/2.0/deed.en</string>
+    <string name="picframe_credit4">Frame 4</string>
+    <string name="picframe_credit1">Frame 1</string>
+    <string name="picframe_credit2">Frame 2</string>
+    <string name="picframe_credit9">Frame 9</string>
+    <string name="picframe_credit6">Frame 6</string>
+    <string name="picframe_credit5">Frame 5</string>
+    <string name="picframe_credit8">Frame 8</string>
+    <string name="picframe_credit7">Frame 7</string>
+</resources>
+<!-- 
+    <string name="appwidget_prefix_default">Oh hai</string>
+    <string name="edit_field1">Edit Field 1</string>
+    <string name="empty_string"></string>
+    <string name="data_field1">Data Field 1</string>
+
+    -->

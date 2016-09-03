@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollview" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:layout_weight="1">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView android:id="@+id/confActTitle" style="@style/menuActivityTitle"
+			android:text="@string/app_name" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<TextView android:id="@+id/confActNamePrompt" style="@style/menuActivityBody"
+			android:text="Type a note or reminder:" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<EditText android:id="@+id/name_edit" style="@style/menuActivityBody"
+			android:textColor="#000000" android:text="@string/message_default"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:selectAllOnFocus="true" />
+		<!--
+			<Button android:id="@+id/set_calendar"
+			style="@style/menuActivityBody" android:textColor="#000000"
+			android:text="@string/set_calendar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		-->
+		<TextView android:id="@+id/confActChooseStylePrompt" style="@style/menuActivityBody"
+			android:text="Choose a style: " android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Gallery android:id="@+id/gallery" android:layout_width="fill_parent"
+			android:layout_height="100dp" />
+		<TextView android:id="@+id/confActPreviewPrompt" style="@style/menuActivityBody"
+			android:text="Preview: " android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Button android:id="@+id/preview_button" style="@style/message_style1.big"
+			android:text="@string/message_default" android:background="@drawable/stickm_skin1"
+			android:layout_centerInParent="true" android:layout_width="146dp"
+			android:layout_height="72dp" />
+		<CheckBox android:id="@+id/checkbox_deadline" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="Set a deadline"
+			android:paddingTop="20dp" />
+		<LinearLayout android:id="@+id/reminderLayout"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<DatePicker android:id="@+id/DatePicker01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal">
+			</DatePicker>
+			<TimePicker android:id="@+id/TimePicker01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal">
+			</TimePicker>
+			<CheckBox android:id="@+id/checkbox_popup" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Have a reminder screen popup at deadline"
+				android:paddingTop="20dp" />				
+			<CheckBox android:id="@+id/checkbox_invisible" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Make note invisible until deadline"
+				android:paddingTop="20dp" />
+		</LinearLayout>
+		<Button android:id="@+id/save_button" style="@style/menuActivityBody"
+			android:textColor="#ffffff" android:text="Save" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center" />
+	</LinearLayout>
+</ScrollView>
