@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.mollys.display" android:versionCode="11"
+	android:versionName="2.4">
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:theme="@style/appTheme1">
+		<activity android:name=".MainActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".MainConfigureActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.APPWIDGET_CONFIGURE" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+		</activity>
+		<receiver android:name=".MainAppWidgetProvider_Small"
+			android:label="StickM Notes (Small)">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+				<action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+				<action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/appwidget_setup1" />
+		</receiver>
+		<receiver android:name=".MainAppWidgetProvider_Medium"
+			android:label="StickM Notes (Medium)">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+				<action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+				<action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/appwidget_setup2" />
+		</receiver>
+		<receiver android:name=".MainAppWidgetProvider_Big"
+			android:label="StickM Notes (Big)">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+				<action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+				<action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/appwidget_setup3" />
+		</receiver>
+
+
+		<!--	THIS IS WHERE THE STUFF RELATED TO OTHER WIDGETS GOES	-->
+		<receiver android:name=".stickm_AppWidgetProvider">
+		</receiver>
+		<activity android:name=".stickm_ConfigureActivity1">
+		</activity>
+		<activity android:name=".stickm_ConfigureActivity">
+		</activity>
+		<receiver android:name=".picframe_AppWidgetProvider">
+		</receiver>
+		<activity android:name=".picframe_ConfigureActivity">
+		</activity>
+		<receiver android:name=".nametag_AppWidgetProvider">
+		</receiver>
+		<activity android:name=".nametag_ConfigureActivity">
+		</activity>
+
+	</application>
+<!--	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+<!--	<uses-permission android:name="android.permission.CAMERA" />-->
+<!--	<uses-permission android:name="android.permission.BIND_APPWIDGET" />-->
+<!--	<uses-permission android:name="android.permission.INTERNET" />-->
+	<uses-permission android:name="android.permission.READ_CALENDAR"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_CALENDAR"></uses-permission>
+	
+	<uses-sdk android:minSdkVersion="3" />
+</manifest> 
