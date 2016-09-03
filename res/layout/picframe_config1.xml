@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/scrollview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+<TextView android:id="@+id/confActTitle"
+	style="@style/menuActivityTitle"
+	android:text="@string/app_name"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+<TextView android:id="@+id/confActChooseStylePrompt"
+	style="@style/menuActivityBody"
+	android:text="Choose a picture and a frame"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+<Button android:id="@+id/test_button3"
+		style="@style/menuActivityBody"
+		android:textColor="#ffffff"
+		android:text="Press here"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+</LinearLayout>
+</ScrollView>

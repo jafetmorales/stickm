@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView android:id="@+id/mainTitle"
+	style="@style/mainActivityTitle"
+	android:text="@string/main_act_title"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+<TextView  android:id="@+id/mainBody"
+	style="@style/mainActivityBody"
+    android:text="@string/main_act_body"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+</LinearLayout>

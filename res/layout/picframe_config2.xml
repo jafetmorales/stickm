@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/scrollview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+<TextView android:id="@+id/confActTitle"
+	style="@style/menuActivityTitle"
+	android:text="@string/app_name"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+<!-- <Button android:id="@+id/set_calendar"
+		style="@style/menuActivityBody"
+		android:textColor="#000000"
+		android:text="@string/set_calendar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>  -->
+<TextView android:id="@+id/confActChooseStylePrompt"
+	style="@style/menuActivityBody"
+	android:text="Scroll through the frames:"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--	android:id="@+id/previewLayout"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="100dp"-->
+<!--    android:layout_height="100dp"-->
+<!--    android:background="@drawable/greeklife_paddle1"-->
+<!--    android:layout_gravity="center_horizontal"-->
+<!--    android:gravity="center">-->
+<Gallery android:id="@+id/gallery"
+  android:layout_width="fill_parent"
+  android:layout_height="100dp"
+  android:layout_marginTop="10dp"
+  android:background="#ffffaa"
+  />
+<!--  </LinearLayout>-->
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    >
+    <ImageView android:id="@+id/pic_image_config"
+        android:text="@string/message_default"
+    	android:src="@drawable/picframe_frame1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"/>
+	<ImageView android:id="@+id/pic_frame_config"
+        android:text="@string/message_default"
+    	android:src="@drawable/picframe_frame1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"		
+		android:layout_centerInParent="true"/>
+</RelativeLayout>
+<TextView android:id="@+id/credits"
+	style="@style/menuActivityBody"
+	android:text=""
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+<Button android:id="@+id/save_button"
+		style="@style/menuActivityBody"		
+		android:textColor="#ffffff"
+		android:text="Save"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		/>
+</LinearLayout>
+</ScrollView>
